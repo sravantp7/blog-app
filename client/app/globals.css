@@ -23,14 +23,12 @@ a {
 
 .container {
   min-height: 100vh;
-  /* background-color: var(--bg-color); */
-  background-color: lightgray;
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
 .wrapper {
   max-width: 1536px;
-  background-color: lightblue;
   margin: 0 auto;
   padding: 0 80px;
 }
