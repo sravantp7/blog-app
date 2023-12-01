@@ -11,13 +11,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="container">
+        <main className="container">
           <div className="wrapper">
             <Navbar />
             {children}
             <Footer />
           </div>
-        </div>
+        </main>
       </body>
     </html>
   );

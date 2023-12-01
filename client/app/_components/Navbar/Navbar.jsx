@@ -7,7 +7,7 @@ import Auth from "../Auth/Auth";
 export default function Navbar() {
   return (
     <nav className={styles.container}>
-      <div className={styles.socials}>
+      <section className={styles.socials}>
         <SocialIcon
           network="facebook"
           style={{ width: "24px", height: "24px" }}
@@ -24,15 +24,15 @@ export default function Navbar() {
           network="youtube"
           style={{ width: "24px", height: "24px" }}
         />
-      </div>
-      <div className={styles.logo}>blog</div>
-      <div className={styles.links}>
+      </section>
+      <section className={styles.logo}>blog</section>
+      <section className={styles.links}>
         <ThemeToggle />
         <Link href="/">Home</Link>
         <Link href="/contact">Contact</Link>
         <Link href="/about">About</Link>
         <Auth />
-      </div>
+      </section>
     </nav>
   );
 }
