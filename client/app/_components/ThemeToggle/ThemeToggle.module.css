@@ -17,10 +17,4 @@
   background-color: white;
   border-radius: 50%;
   position: absolute;
-  left: 1px;
-}
-
-.dark {
-  left: none;
-  right: 1px;
 }
