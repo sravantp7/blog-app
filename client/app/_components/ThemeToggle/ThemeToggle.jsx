@@ -13,9 +13,7 @@ export default function ThemeToggle() {
       className={styles.container}
       onClick={toggleTheme}
       style={
-        theme === "dark"
-          ? { background: "white" }
-          : { right: "1px", background: "black" }
+        theme === "dark" ? { background: "white" } : { background: "black" }
       }
     >
       <Image src={"/sun.png"} alt="sun" width={14} height={14} />

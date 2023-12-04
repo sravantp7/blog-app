@@ -29,6 +29,13 @@ a {
   --soft-text-color: #a6a6a6;
 }
 
+.light {
+  --bg-color: white;
+  --text-color: black;
+  --soft-bg-color: #f0f0f0;
+  --soft-text-color: #626262;
+}
+
 .container {
   min-height: 100vh;
   background-color: var(--bg-color);
