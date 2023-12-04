@@ -21,6 +21,14 @@ a {
   text-decoration: none;
 }
 
+/* if theme is dark then these values will override :root values */
+.dark {
+  --bg-color: #0f172a;
+  --text-color: #ddd;
+  --soft-bg-color: #1f273a;
+  --soft-text-color: #a6a6a6;
+}
+
 .container {
   min-height: 100vh;
   background-color: var(--bg-color);

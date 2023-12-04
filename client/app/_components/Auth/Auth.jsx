@@ -7,7 +7,7 @@ export default function Auth() {
   const status = "authenticated";
   return (
     <>
-      {status === "authenticated" ? (
+      {status === "notauthenticated" ? (
         <>
           <Link href="/write">Write</Link>
           <span className={styles.logout}>Logout</span>
