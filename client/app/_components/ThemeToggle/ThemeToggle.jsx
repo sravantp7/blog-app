@@ -21,8 +21,8 @@ export default function ThemeToggle() {
         className={styles.circle}
         style={
           theme === "dark"
-            ? { left: "1px", background: "#0f172a" }
-            : { right: "1px", background: "white" }
+            ? { right: "1px", background: "#0f172a" }
+            : { left: "1px", background: "white" }
         }
       ></div>
       <Image src={"/moon.png"} alt="moon" width={14} height={14} />
