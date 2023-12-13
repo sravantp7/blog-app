@@ -8,8 +8,6 @@ export default function Auth() {
   const status = "notauthenticated";
   const [open, setOpen] = useState(false);
 
-  console.log(open);
-
   return (
     <>
       {status === "authenticated" ? (
