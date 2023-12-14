@@ -25,6 +25,7 @@
   height: 60px;
   text-transform: capitalize;
   width: 15%;
+  margin: 10px;
 }
 
 .image {
@@ -48,4 +49,29 @@
 }
 .category.culture {
   background-color: #ffb04f45;
+}
+
+@media screen and (max-width: 1280px) {
+  .category {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .category {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .category {
+    width: 45%;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .category {
+    width: 100%;
+  }
 }
