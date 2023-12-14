@@ -1,25 +1,51 @@
 .container {
   margin-top: 20px;
-  background-color: rgb(164, 164, 145);
 }
 
 .title {
   font-size: 50px;
+  font-weight: 300;
 }
 
 .post {
   margin-top: 20px;
   display: flex;
-  gap: 50px;
+  gap: 20px;
   justify-content: space-between;
+  padding: 10px;
+}
+
+.image {
+  object-fit: cover;
 }
 
 .imgContainer {
-  flex: 1;
   position: relative;
-  height: 500px;
+  flex: 1;
+  height: auto;
 }
 
 .textContainer {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.postTitle {
+  font-size: 35px;
+}
+
+.postDescription {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--soft-text-color);
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  font-weight: 500;
 }
