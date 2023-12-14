@@ -25,7 +25,9 @@ export default function Navbar() {
           style={{ width: "24px", height: "24px" }}
         />
       </section>
-      <section className={styles.logo}>blog</section>
+      <section className={styles.logo}>
+        <Link href="/">Blog</Link>
+      </section>
       <section className={styles.links}>
         <ThemeToggle />
         <Link href="/" className={styles.link}>
