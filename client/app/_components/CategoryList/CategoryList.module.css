@@ -1,0 +1,51 @@
+.container {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 30px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 8px;
+  padding: 0 10px;
+  height: 60px;
+  text-transform: capitalize;
+  width: 15%;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.category.coding {
+  background-color: #5e4fff31;
+}
+.category.style {
+  background-color: #57c4ff31;
+}
+.category.fashion {
+  background-color: #da85c731;
+}
+.category.food {
+  background-color: #7fb88133;
+}
+.category.travel {
+  background-color: #ff795736;
+}
+.category.culture {
+  background-color: #ffb04f45;
+}
