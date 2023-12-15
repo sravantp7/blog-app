@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Featured />
       <CategoryList />
-      <section>
+      <section className={styles.container}>
         <CardList />
         <Menu />
       </section>

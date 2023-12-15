@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.imageContainer {
+  flex: 1;
+  height: auto;
+  position: relative;
+  height: 350px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.image {
+  object-fit: cover;
+}

@@ -1,0 +1,5 @@
+.container {
+  flex: 2;
+  background-color: lightcoral;
+  min-height: 100px;
+}
